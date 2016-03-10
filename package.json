@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/markleung1969/markleung1969.github.io/issues"
   },
-  "homepage": "http://www.fancyhotshit.com"
+  "homepage": "http://www.fancyhotshit.com",
+  "dependencies": {
+    "font-awesome": "^4.5.0"
+  }
 }

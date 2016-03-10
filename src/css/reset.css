@@ -206,3 +206,6 @@ iframe {
     list-style:none;
     text-decoration:none;
 }
+.center {
+    margin:0 auto;
+}
