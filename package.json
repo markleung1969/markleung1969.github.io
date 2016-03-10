@@ -1,0 +1,22 @@
+{
+  "name": "markleung1969.github.io",
+  "version": "1.0.0",
+  "description": "github static pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markleung1969/markleung1969.github.io.git"
+  },
+  "keywords": [
+    "github"
+  ],
+  "author": "markleung219@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markleung1969/markleung1969.github.io/issues"
+  },
+  "homepage": "http://www.fancyhotshit.com"
+}

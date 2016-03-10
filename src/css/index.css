@@ -1,0 +1,45 @@
+body, html{
+    height:100%;
+}
+body {
+    background:url('/src/imgs/bg.png') top left repeat;
+}
+.fullpage-wrapper {
+    width:100%;
+    height:100%;
+    display:table;
+}
+.fullpage {
+    width:100%;
+    height:100%;
+    display:table-cell;
+    vertical-align:middle;
+}
+@keyframes breath{
+    from{
+        box-shadow:0 0 0 0px rgba(0, 228, 117, .3);
+    }
+    80%{
+        box-shadow:0 0 0 15px rgba(0, 228, 117, .1);
+    }
+    to{
+        box-shadow:0 0 0 20px rgba(0, 228, 117, .0);
+    }
+}
+.avatar-wrapper {
+    width:120px;
+    height:120px;
+    margin:0 auto;
+    overflow:hidden;
+    border:4px solid #00e4af;
+    background-color:#00e4af;
+    border-radius:100%;
+    animation:breath 2s linear 1s infinite;
+}
+.avatar {
+    display:block;
+    width:120px;
+    height:120px;
+    vertical-align:bottom;
+    border:none;
+}
