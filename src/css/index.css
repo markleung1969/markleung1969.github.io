@@ -56,9 +56,10 @@ body {
 }
 .detail {
     width:520px;
-    margin:0 auto;
+    margin:0 auto 40px auto;
     color:white;
     font-size:16px;
+    overflow:hidden;
 }
 .detail .fa{
     color:#00e6b2;
@@ -90,11 +91,14 @@ body {
 .contact .fa {
     margin-right:12px;
 }
+.websites {
+    margin-left:-6px;
+}
 .website {
     display:inline-block;
     vertical-align:bottom;
-    width:26px;
-    height:26px;
+    width:32px;
+    height:32px;
     border-radius:100%;
     text-align:center;
     margin-right:5px;
@@ -103,7 +107,7 @@ body {
 .website .fa {
     margin:0;
     color:#00e6b2;
-    vertical-align:2px;
+    vertical-align:-1px;
     transition:all 1s;
 }
 .website:hover {
@@ -111,4 +115,11 @@ body {
 }
 .website:hover .fa {
     color:#3a3d42;
+}
+.copyright {
+    text-align:center;
+    color:white;
+}
+.copyright a {
+    color:#00e6b2;
 }
